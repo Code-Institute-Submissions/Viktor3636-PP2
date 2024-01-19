@@ -1,5 +1,14 @@
 // PP2 PROJECT ROCK - PAPER - SCISSORS
 
+function updatePlayerName() {
+    const playerName = document.getElementById('playerNameInput').value;
+
+    document.getElementById('playerNameDisplay').innerText = 
+    `3. Hello, ${playerName}! Pick your choice - 
+    "ROCK", "PAPER" or "SCISSOR" to start the game.`;
+}
+
+
 let playerScore = 0;
 let computerScore = 0;
 
