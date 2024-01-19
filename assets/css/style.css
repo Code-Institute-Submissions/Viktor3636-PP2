@@ -1,12 +1,12 @@
 body {
     background-color: #FAEF9B;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: #647D87;
     text-align: center;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .instructions {
@@ -49,27 +49,33 @@ h1 {
 #playerDisplay {
     text-align: center;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    color: green;
 }
 
 #computerDisplay {
     text-align: center;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px; 
+    color: red;
 }
 
 #playerScore {
 text-align: center;
 padding: 15px;
-font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
+color: green;
 }
 
 #computerScore {
 text-align: center;  
-font-family: Arial, Helvetica, sans-serif;
 padding: 15px;
 font-size: 30px;
+color: red;
+}
+
+#resultDisplay {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
 }

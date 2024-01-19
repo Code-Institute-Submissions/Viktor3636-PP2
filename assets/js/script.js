@@ -1,5 +1,9 @@
 // PP2 PROJECT ROCK - PAPER - SCISSORS
 
+// Initialize scores
+let playerScore = 0;
+let computerScore = 0;
+
 function startPlay(playerChoice) {
     // Choices for the computer
     const computerChoices = ['rock', 'paper', 'scissor'];
@@ -7,21 +11,30 @@ function startPlay(playerChoice) {
     // Randomly pick a choice for the computer
     const computerChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
-    // Log player's and computer's choices
-    console.log('Player choice:', playerChoice);
-    console.log('Computer choice:', computerChoice);
+    // Display player's and computer's choices
+    document.getElementById('playerDisplay').innerText = 'YOU CHOOSE: ' + playerChoice.toUpperCase();
+    document.getElementById('computerDisplay').innerText = 'COMPUTER CHOOSE: ' + computerChoice.toUpperCase();
 
     // Determine the winner or declare a tie
+    let result = '';
     if (playerChoice === computerChoice) {
-        console.log('It\'s a tie!');
+        result = 'It\'s a tie!';
     } else if (
         (playerChoice === 'rock' && computerChoice === 'scissor') ||
         (playerChoice === 'paper' && computerChoice === 'rock') ||
         (playerChoice === 'scissor' && computerChoice === 'paper')
     ) {
-        console.log('Player wins!');
+        result = 'You win!';
+        playerScore++;
     } else {
-        console.log('Computer wins!');
+        result = 'Computer wins!';
+        computerScore++;
     }
 
+    // Display the result
+    document.getElementById('resultDisplay').innerText = result;
+
+    // Update and display scores
+    document.getElementById('playerPoints').innerText = playerScore;
+    document.getElementById('computerPoints').innerText = computerScore;
 }
