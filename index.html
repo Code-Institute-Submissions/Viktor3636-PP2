@@ -20,14 +20,18 @@
     </div>
 
     <div id="options">
-     <button onclick="('startPlay')"><i class="fa-solid fa-hand-back-fist"></i></button>
-     <button onclick="('startPlay')"><i class="fa-solid fa-hand"></i></button>
-     <button onclick="('startPlay')"><i class="fa-solid fa-hand-scissors"></i></button>
+     <button onclick="startPlay('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+     <button onclick="startPlay('paper')"><i class="fa-solid fa-hand"></i></button>
+     <button onclick="startPlay('scissor')"><i class="fa-solid fa-hand-scissors"></i></button>
     </div>
 
+    <div id="playerDisplay">YOU:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+    <div id="resultDisplay"></div>
+
     <div id="scores"></div>
-    <div id="playerScore">PLAYER:</div>
-    <div id="computerScore">COMPUTER:</div>
+    <div id="playerScore">PLAYER POINTS:</div>
+    <div id="computerScore">COMPUTER POINTS:</div>
 <script 
   src="assets/js/script.js" 
   type="text/javascript">
