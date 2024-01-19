@@ -1,38 +1,21 @@
 body {
-    background-color: grey;
+    background-color: #FAEF9B;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+    color: #647D87;
     text-align: center;
-    color: white;
+    font-size: 40px;
 }
 
-.buttons {
+#options {
     text-align: center;
-    padding: 20 20px;
-
 }
 
-#button {
+#options button {
     font-size: 150px;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    border: 2px solid black;
-    background-color: lightblue;
-    color: yellow;
-}
-
-.whoSelect {
-    text-align: center;
-    font-size: 30px;
-}
-
-.points {
-    align-items: center;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-
+    min-width: 300px;
+    border-radius: 100px;
+    background-color: #647D87;
+    color: #F6D776;
 }
