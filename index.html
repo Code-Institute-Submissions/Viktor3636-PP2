@@ -13,16 +13,16 @@
     <div class="instructions">
         <p>1. WRITE YOUR NAME IN THE BOX BELOW</p>
         <p>2. <label for="playerName">Enter Your Name:</label>
-            <input type="text" id="playerNameInput" placeholder="ENTER YOUR NAME"><input id="submitButton" onclick="updatePlayerName()" type="submit"></p>
+            <input type="text" id="playerNameInput" placeholder="ENTER YOUR NAME"><input id="submitButton" onclick="setPlayerName()" type="submit"></p>
         <p id="playerNameDisplay">3. PICK YOUR CHOICE - "ROCK", "PAPER" OR "SCISSOR" TO START THE GAME</p>
         <p>4. FIRST TO 10 POINTS WINS THE GAME</p>
         <p>5. GOOD LUCK!</p>
     </div>
 
     <div id="options">
-     <button onclick="startPlay('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
-     <button onclick="startPlay('paper')"><i class="fa-solid fa-hand"></i></button>
-     <button onclick="startPlay('scissor')"><i class="fa-solid fa-hand-scissors"></i></button>
+     <button onclick="playGame('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+     <button onclick="playGame('paper')"><i class="fa-solid fa-hand"></i></button>
+     <button onclick="playGame('scissor')"><i class="fa-solid fa-hand-scissors"></i></button>
     </div>
 
     <div id="playerDisplay">YOU:</div>
