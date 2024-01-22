@@ -42,7 +42,7 @@ h1 {
     background-color: #647D87;
     color: #F6D776;
     border: 2px solid white;
-    width: 200px; /* Explicit width to prevent layout shift */
+    width: 200px;
 }
 
 #playerDisplay,
