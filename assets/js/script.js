@@ -18,7 +18,7 @@ IF PLAYER WIN, DECLARE "YOU WIN" AND ADD 1 POINT AND THE SAME FOR COMPUTER.
 FIRST PLAYER TO 10 WINS WILL BE DECLARED AS A WINNER
 WITH AN ALERT
 */
-function playGame (playerChoice){
+function playGame(playerChoice){
   const playerArrayMatch = diffrentChoices.find(x=>x.id===playerChoice);
   const randomComputerIndex = Math.floor(Math.random()*3);
   const computerArrayMatch = diffrentChoices[randomComputerIndex];
@@ -38,7 +38,7 @@ function playGame (playerChoice){
   // IF COMPUTER WINS ADD +1 POINT AND DECLARE HIM THE WINNER OF THAT ROUND.
 else if (computerArrayMatch.winsOver === playerArrayMatch.id){
      computerScore ++;
-     winner = "COMPUTER WINS!";
+     winner = "YOU LOST!";
      if (computerScore === 10){
         alert('COMPUTER WON THE ENTIRE GAME. TRY AGAIN!');
      }
