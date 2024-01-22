@@ -35,9 +35,20 @@
 
     <!-- BUTTONS FOR ROCK,PAPER,SCISSOR AND TO START THE GAME -->
     <div id="options">
-     <button onclick="playGame('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
-     <button onclick="playGame('paper')"><i class="fa-solid fa-hand"></i></button>
-     <button onclick="playGame('scissor')"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button onclick="playGame('rock')">
+            <i class="fa-solid fa-hand-back-fist"></i>
+            <span class="sr-only">Rock</span>
+        </button>
+        
+        <button onclick="playGame('paper')">
+            <i class="fa-solid fa-hand"></i>
+            <span class="sr-only">Paper</span>
+        </button>
+        
+        <button onclick="playGame('scissor')">
+            <i class="fa-solid fa-hand-scissors"></i>
+            <span class="sr-only">Scissors</span>
+        </button>
     </div>
 
     <!-- DISPLAY OUR CHOICES -->
