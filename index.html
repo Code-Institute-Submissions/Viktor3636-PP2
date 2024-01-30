@@ -1,72 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- TITLE -->
     <title>ROCK-PAPER-SCISSORS</title>
-
     <!-- META DESCRIPTION -->
     <meta name="description" content="Welcome to a game of rock, paper & scissors! 
     Do u think you can beat the computer? Let's give it a try!">
-
     <!-- CSS LINK -->
     <link rel="stylesheet" href="assets/css/style.css">
-
     <!-- REMOVED THE BUG THAT APPEARED IN CONSOLE -->
     <link rel="shortcut icon" href="#">
-
     <!-- LOGOS FOR BUTTONS -->
     <script src="https://kit.fontawesome.com/ec9a388b78.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>ROCK - PAPER - SCISSORS</h1>
-
     <!-- INSTRUCTIONS -->
- <div class="instructions">
-    <p>1. 
-        <label for="playerNameInput">Enter Your Name:</label>
+    <div class="instructions">
+      <p>1. <label for="playerNameInput">Enter Your Name:</label>
         <input type="text" id="playerNameInput" placeholder="ENTER YOUR NAME">
         <input id="submitButton" onclick="setPlayerName()" type="submit">
-    </p>
-        <p id="playerNameDisplay">2. PICK YOUR CHOICE - "ROCK", "PAPER" OR "SCISSOR" TO START THE GAME</p>
-        <p>3. FIRST TO 10 POINTS WINS THE GAME</p>
-        <p>4. GOOD LUCK!</p>
+      </p>
+      <p id="playerNameDisplay">2. PICK YOUR CHOICE - "ROCK", "PAPER" OR "SCISSOR" TO START THE GAME</p>
+      <p>3. FIRST TO 10 POINTS WINS THE GAME</p>
+      <p>4. GOOD LUCK!</p>
     </div>
-
     <!-- BUTTONS FOR ROCK,PAPER,SCISSOR AND TO START THE GAME -->
     <div id="options">
-        <button onclick="playGame('rock')">
-            <i class="fa-solid fa-hand-back-fist"></i>
-            <span class="sr-only">Rock</span>
-        </button>
-        
-        <button onclick="playGame('paper')">
-            <i class="fa-solid fa-hand"></i>
-            <span class="sr-only">Paper</span>
-        </button>
-        
-        <button onclick="playGame('scissor')">
-            <i class="fa-solid fa-hand-scissors"></i>
-            <span class="sr-only">Scissors</span>
-        </button>
+      <button onclick="playGame('rock')">
+        <i class="fa-solid fa-hand-back-fist"></i>
+        <span class="sr-only">Rock</span>
+      </button>
+      <button onclick="playGame('paper')">
+        <i class="fa-solid fa-hand"></i>
+        <span class="sr-only">Paper</span>
+      </button>
+      <button onclick="playGame('scissor')">
+        <i class="fa-solid fa-hand-scissors"></i>
+        <span class="sr-only">Scissors</span>
+      </button>
     </div>
-
     <!-- DISPLAY OUR CHOICES -->
     <div id="playerDisplay">YOU:</div>
     <div id="computerDisplay">COMPUTER:</div>
     <div id="resultDisplay"></div>
-
     <!-- DISPLAY OUR SCORES -->
     <div id="scores">
-        <div id="playerScore">PLAYER POINTS: <span id="playerPoints">0</span></div>
-        <div id="computerScore">COMPUTER POINTS: <span id="computerPoints">0</span></div>
+      <div id="playerScore">PLAYER POINTS: <span id="playerPoints">0</span>
+      </div>
+      <div id="computerScore">COMPUTER POINTS: <span id="computerPoints">0</span>
+      </div>
     </div>
-
     <!-- JS SCRIPT -->
-<script 
-  src="assets/js/script.js" >
-</script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
