@@ -9,7 +9,7 @@
  ![screenshot](/assets/images/responsivness.png)
 
 
-# Table of contects
+# Table of content
 * [ROCK - PAPER - SCISSORS](#ROCK-PAPER-SCISSOR)
 * [UX](#ux)
   * [Site Purpose](#site-purpose)
