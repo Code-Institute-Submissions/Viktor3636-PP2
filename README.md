@@ -11,6 +11,35 @@
 
 # Table of contects
 * [ROCK - PAPER - SCISSORS](#ROCK-PAPER-SCISSOR)
+* [UX](#ux)
+  * [Site Purpose](#site-purpose)
+  * [Audience](#audience)
+  * [Current User Goal](#current-user-goal)
+* [Design](#design)
+  * [Color Palette](#color-palette)
+  * [Typography](#typography)
+  * [Logos](#logos)
+* [Features](#features)
+  * [Languages Used](#languages-used)
+  * [Home Page](#home-page)
+  * [Declared Winner](#declared-winner)
+  * [When you restart the game](#when-you-restart-the-game)
+* [Future Features](#future-features)
+* [Testing](#testing)
+  * [HTML Validator](#html-validator)
+  * [CSS Validator](#css-validator)
+  * [JS Validator](#js-validator)
+  * [Lighthouse](#lighthouse)
+  * [Mobile Test](#mobile-test)
+  * [Desktop Test](#desktop-test)
+  * [Website Functions](#website-functions)
+* [Libraries And Programs Used](#libraries-and-programs-used)
+* [Deployment & Usage](#deployment--usage)
+  * [Deployment](#deployment)
+  * [How to Fork](#how-to-fork)
+  * [How to Clone](#how-to-clone)
+* [Credits](#credits)
+
 
 # UX
 

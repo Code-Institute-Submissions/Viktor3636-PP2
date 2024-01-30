@@ -1,11 +1,15 @@
+/*jshint esversion: 6 */
+
 // ROCK - PAPER - SCISSOR PP2.
+
 
 // DECLARE WHAT WINS OVER THE OTHER
 const diffrentChoices = [
-    {id:"rock", winsOver:"scissor"},
-     {id:"paper", winsOver:"rock"},
-      {id:"scissor", winsOver:"paper"},
+    {id: "rock", winsOver: "scissor"},
+     {id: "paper", winsOver: "rock"},
+      {id: "scissor", winsOver: "paper"},
 ];
+
 
 
 let playerScore = 0;
@@ -18,7 +22,7 @@ IF PLAYER WIN, DECLARE "YOU WIN" AND ADD 1 POINT AND THE SAME FOR COMPUTER.
 FIRST PLAYER TO 10 POINTS WILL BE DECLARED AS A WINNER
 WITH AN ALERT.
 */
-function playGame(playerChoice){
+function playGame (playerChoice){
   const playerArrayMatch = diffrentChoices.find(x=>x.id===playerChoice);
   const randomComputerIndex = Math.floor(Math.random()*3);
   const computerArrayMatch = diffrentChoices[randomComputerIndex];
