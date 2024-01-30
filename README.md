@@ -121,6 +121,8 @@ When you press OK the game will still declare the winner with 10 points, but as 
 
 ### JS Validator
 
+![JS Check](/assets/images/jss%20validator.png)
+
 ## Lighthouse
 
 ### Mobile Test
