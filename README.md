@@ -142,8 +142,7 @@ When you press OK the game will still declare the winner with 10 points, but as 
 # Libraries and Programs Used
 
 * Github: Store Repository
-* Gitpod: To create the html and css file
-* Google Fonts: Font family 'Roboto'
+* Gitpod: To create the HTML, CSS & JS file
 * Dev Tools: For styling and lighthouse
 * Safari: Site testing on an alternative browser
 * Font Awesome: For the buttons
